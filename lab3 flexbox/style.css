@@ -1,0 +1,43 @@
+#header{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+    background: url(https://www.rfbr.ru/rffi/image?objectId=2078851);
+}
+
+.headLink{
+	width: 250px;
+  	height: 150px;
+  	background: #783923;
+  	text-align: center;
+  	line-height: 15px;
+  	margin-top: 2%;
+}
+
+.headLink2{
+	margin-top: 2%;
+	width: 200px;
+  	height: 400px;
+  	background: #724841;
+  	text-align: center;
+  	line-height: 30px;
+  	font-size: 15px;
+  	font-weight: bold;
+}
+
+h1{
+	margin-top: 2%;
+	color: #452945;
+	width: 100%;
+	line-height: 50px;
+	text-align: center;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+
+}

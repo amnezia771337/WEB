@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="2dd/css/style.css">
+  <title>POST-форма</title>
+</head>
+    <a href="index.html">Другое</a>
+<body>
+    
+  <form action="https://httpbin.org/post" method="POST">
+    <h2>Обратная связь</h2>
+    <label for="name">ФИО</label>
+    <input type="text" id = "name" name = "FIO" placeholder="Иванов Иван Иванович">
+    <div class = "sex_choose">
+      <p>Пол: </p>
+      <p><input type="radio" name="sex" id="man" value="Male"> Мужской</p>
+      <p><input type="radio" name = "sex" id = "woman" value = "female"> Женский</p>
+    </div>
+    <label for="email">Электронная почта</label>
+    <input type="text" id = "email" name = "email">
+    <label for="drop">Категория обращения</label>
+    <select name="drop" id="drop">
+      <option value="Zhaloba">Жалоба</option>
+      <option value="Zhaloba2">Обращение</option>
+    </select>
+    <label for="msg">Текст сообщения</label>
+    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+    <label for="file">Прикрепить файлы</label>
+    <input type="file" name="file" id="file">
+    <input type="submit" value="Отправить">
+  </form>
+</body>
+</html>

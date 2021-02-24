@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang= "ru">
+<head>
+<title>Форма для входа</title>
+<meta charset= "utf-8">
+<link rel= "stylesheet" href= "css/style.css">
+</head>
+<body>
+    <a href="forms1.html">Другое</a>
+  <header>
+
+  </header>
+  <main>
+    <form action="https://httpbin.org/post" method="POST">
+      <h2>Вход</h2>
+      <label for="name">Логин</label>
+      <input type="text" id="name" name="name" value="Логин">
+      <label for="password">Пароль</label>
+      <input type="password" id="password" name="password">
+      <div class="buttons">
+        <button type="submit" value="Войти"> Войти </button>
+      </div>
+      <div class="group">
+        <input id = "checkbox" type="checkbox" name = "checkbox" checked = "checked">
+          Запомнить меня
+        </input>
+      </div>
+      </form> 
+    </main>
+  <footer class="page-footer">
+      <br>
+      <ul>
+        <li><h3>Контакты</h3></li>
+        <li>Телефон: +7 958 648 23 65</li>
+        <li>Email: help@drop.io</li>
+      </ul><br>
+  </footer>
+</body>
+</html> 
